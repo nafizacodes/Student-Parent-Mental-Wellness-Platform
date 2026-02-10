@@ -14,56 +14,212 @@ A full-stack responsive web application for student emotional well-being trackin
 - 🌙 **Dark Mode** — Toggle between light and dark themes
 - 🔐 **Privacy** — Parents cannot access student journal entries
 
-## Tech Stack
+🌿 Student & Parent Mental Wellness Platform
 
-| Layer | Technology |
-|-------|-----------|
-| Frontend | Vite + React 18, Chart.js, react-i18next |
-| Backend | Node.js + Express |
-| Database | SQLite (via sql.js) |
-| Auth | JWT + bcryptjs |
+A full-stack responsive web application designed to help students track their mental well-being while allowing parents to view summarized insights in a privacy-respecting way.
 
-## Getting Started
+📌 Project Overview
 
-### 1. Install Dependencies
+The Student & Parent Mental Wellness Platform provides:
 
-```bash
-npm install # Root dependencies (concurrently)
-cd server && npm install
-cd ../client && npm install
-```
+Daily mood and stress tracking for students
 
-### 2. Run Application (Concurrent)
+Private journaling
 
-Run both backend and frontend with a single command from the project root:
+Visual analytics dashboard
 
-```bash
-npm start
-```
+Parent summary reports
 
-- **Backend**: http://localhost:5000
-- **Frontend**: http://localhost:5173
+Stress-relief games
 
-### Alternative: Run Separately
+Calming music section
 
-**Backend**:
-```bash
-cd server
-npm start
-```
+Recommended mental health books & resources
 
-**Frontend**:
-```bash
-cd client
-npm run dev
-```
+Multi-language support
 
-### 4. Usage
+This platform promotes emotional awareness, communication, and healthy habits.
 
-1. Register as a **Student** or **Parent**
-2. **Students**: Complete daily check-ins, view dashboard, play games, listen to music
-3. **Parents**: Link to student via email, view weekly/monthly summaries
+🎯 Objectives
 
-## ⚠️ Disclaimer
+Help students monitor emotional well-being
 
-This application is designed for wellness tracking purposes only and is not a substitute for professional medical advice.
+Provide parents with non-invasive summary insights
+
+Encourage stress management through games and music
+
+Ensure privacy and secure authentication
+
+Support accessibility through multilingual options
+
+👥 User Roles
+🧑‍🎓 Student
+
+Register/Login
+
+Daily mood tracking (emoji-based)
+
+Stress & energy level logging
+
+Private journal entries
+
+View personal dashboard analytics
+
+Access stress-relief games
+
+Listen to calming music
+
+Browse mental health resources
+
+Change language preference
+
+👨‍👩‍👧 Parent
+
+Register/Login
+
+Link to student account
+
+View weekly/monthly summary reports
+
+Receive high-stress alerts
+
+Access parenting mental health resources
+
+🌐 Core Features
+🧠 Mental Health Tracking
+
+Mood selection
+
+Stress level (1–5)
+
+Energy level (1–5)
+
+Private journaling
+
+Secure data storage
+
+📊 Dashboard & Analytics
+
+Weekly/monthly mood trends
+
+Stress graphs (Chart.js)
+
+Wellness score calculation
+
+Streak tracking
+
+🌍 Multi-Language Support
+
+Language dropdown selector
+
+Dynamic text translation
+
+Stored language preferences
+
+🎮 Stress-Relief Games
+
+Bubble pop relaxation game
+
+Guided breathing animation
+
+Color therapy interface
+
+🎵 Music Therapy Section
+
+Embedded or hosted calming music
+
+Nature sounds, rain sounds, focus music
+
+Audio controls
+
+📚 Resources Section
+
+Recommended books for students & parents
+
+Educational articles
+
+Mental health helpline information
+
+🔐 Privacy & Security
+
+Role-based authentication (Student / Parent)
+
+Parents cannot access private journal entries
+
+Secure password handling
+
+JWT/session-based authentication
+
+Data protection practices
+
+🛠 Tech Stack
+Frontend
+
+HTML, CSS, JavaScript
+OR
+
+React.js
+
+Backend
+
+Node.js + Express
+OR
+
+Django / Flask
+
+Database
+
+MongoDB
+OR
+
+MySQL / SQLite
+
+Charts & Visualization
+
+Chart.js
+
+📁 Project Structure
+mental-wellness-platform/
+│
+├── client/
+│   ├── components/
+│   ├── pages/
+│   ├── games/
+│   ├── music/
+│   └── resources/
+│
+├── server/
+│   ├── models/
+│   ├── routes/
+│   ├── controllers/
+│   └── middleware/
+│
+└── README.md
+
+🎨 UI/UX Design
+
+Calm pastel color palette
+
+Responsive layout (mobile-friendly)
+
+Dark mode support
+
+Clean card-based interface
+
+Minimal and distraction-free design
+
+⚠️ Disclaimer
+
+This application is designed for wellness tracking purposes only and is not a substitute for professional medical advice. If you are experiencing serious mental health concerns, please consult a licensed professional.
+
+🚀 Future Improvements
+
+Email alert notifications
+
+Weekly PDF report export
+
+AI-based mood insights
+
+Gamified reward badges
+
+Emergency support button
